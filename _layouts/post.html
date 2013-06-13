@@ -1,7 +1,80 @@
----
-layout: default
----
-<div id="post">
-  {{ content }}
-</div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Amrita Mazumdar - DREU Blog{% if page.title }%} - {{page.title}}{% endif %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Le styles -->
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+      </script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="row" id="name">
+        <h1><a href="./">Amrita Mazumdar</a></h1>
+        <h2>DREU 2013 @ Brown University</h2>
+      </div>
+      <div class="row" id="bottom">
+        <div class="span3">
+          <ul id="menu" class="nav nav-list">
+            <li data-section="{{ post.title }}">
+              <a href="./about-me">About Me</a>
+            </li>
+          {% for category in site.categories %}
+          <li class="nav-header">{{ category | first }}</li>
+            {% for posts in category %}
+            {% for post in posts %}
+            {% if post.title != nil %}
+              <li data-section="{{ post.title }}">
+                <a href="./{{ post.url }}">{{ post.title }}</a>
+                </li>
+            {% endif %}
+              {% endfor %}
+            {% endfor %}
+         {% endfor %}
+          <!-- try liquid cats -->
+            <!-- normal cats 
+            <li class="nav-header">ABOUT</li>
+            <li data-section="about-me"><a href="/about-me">Me</a></li>
+            <li data-section="about-dreu"><a href="/about-dreu">The Program</a></li>
+
+            <li class="nav-header">WEEKLY LOG</li>
+            {% for post in site.posts do %}
+            <li data-section="{{ page.title }}">
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+            -->
+            <li class="nav-header">CONTACT</li>
+            <li><a href="mailto:am3210@columbia.edu">Email Me!</a></li>
+          </ul>
+        </div>
+        <div class="span9">
+{{content}}
+        </div>
+      </div>
+    </div>
+
+    <style>
+      
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
+    </script>
+    <script src="/assets/js/bootstrap.js">
+    </script>
+
+    <script>
+      $('#menu [data-section="{{page.title}}"]').addClass('active');
+    </script>
+
+  </body>
+</html>
 
