@@ -1,36 +1,13 @@
 body {
-  padding-top: 100px;
+  padding-top: 30px;
   font-family: Helvetica, sans-serif;
 }
-
-.navbar-inner {
-  padding: 5px 0px;
-  background-image: none;
-  background-color: rgba(0, 0, 0, 0.7);
-  box-shadow: none !important;
-  -webkit-box-shadow: none !important;
-  -moz-box-shadow: none !important;
+#name {
+  text-align: right;
+  margin-bottom: 10px;
 }
-
-.navbar .nav.pull-right li {
-  line-height: 42px
-}
-.navbar .nav.pull-right a {
-  margin-right: 40px;
-  text-decoration: none;
-  color: #ccc;
-  font-size: 13px;
-  font-weight: normal;
-  text-shadow: none;
-}
-.navbar .nav.pull-right li:last-child a {
-  margin-right: 0px;
-}
-.navbar .nav.pull-right a:hover {
-  color: #fff;
-}
-.navbar .nav.pull-right a.orange-button {
-  display: inline-block;
+#bottom{
+  padding-top: 20px;
 }
 
 #menu {
@@ -50,7 +27,6 @@ body {
   #menu {
     min-height: 0px;
     border: none;
-    position: static;
     width: auto;
     margin-bottom: 20px;
     border-bottom: 1px solid #eee;
@@ -75,24 +51,22 @@ body {
   color: #fff;
 }
 
-.orange-button {
-  display: inline-block;
-  line-height: 20px;
-  border-radius: 20px;
-  vertical-align: middle;
-  color: #ffffff !important;
-  background-image: linear-gradient(90deg, #dc534b 0%, #d96f5f 100%);
-  background-image: -moz-linear-gradient(90deg, #dc534b 0%, #d96f5f 100%);
-  background-image: -webkit-linear-gradient(90deg, #dc534b 0%, #d96f5f 100%);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, .2)
-  padding: 0px 10px;
-}
-.orange-button {
+#name {
+  border-bottom: 1px solid #eee;
 }
 
-@media (max-width: 979px) {
-  body {
-    padding-top: 0px;
-  }
+#name h2{
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 300;
+  color: #999;
 }
 
+#post h1{
+  font-size: 28px;
+}
+
+#post h2{
+  font-size: 16px; 
+}
