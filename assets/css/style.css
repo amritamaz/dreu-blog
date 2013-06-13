@@ -2,10 +2,25 @@ body {
   padding-top: 30px;
   font-family: Helvetica, sans-serif;
 }
+
+#header {
+  border-bottom: 1px solid #eee;
+}
+
 #name {
   text-align: right;
   margin-bottom: 10px;
+  float: right;
 }
+
+#logos {
+float: left;
+}
+
+#logos img{
+  height: 75px;
+}
+
 #bottom{
   padding-top: 20px;
 }
@@ -51,11 +66,14 @@ body {
   color: #fff;
 }
 
-#name {
-  border-bottom: 1px solid #eee;
+#name h1{
+  line-height: normal;
+  margin: 0;
 }
 
 #name h2{
+  line-height: normal;
+  margin: 0;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;

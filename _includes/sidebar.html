@@ -1,0 +1,27 @@
+        <div class="span3">
+          <ul id="menu" class="nav nav-list">
+            <li data-section="{{ post.title }}">
+              <a href="../about-me">About Me</a>
+            </li>
+          {% for category in site.categories %}
+          <li class="nav-header">{{ category | first }}</li>
+            {% for posts in category %}
+            {% for post in posts %}
+            {% if post.title != nil %}
+              {% if page.title == 'Welcome' %}
+              <li data-section="{{ post.title }}">
+                <a href=".{{ post.url }}">{{ post.title }}</a>
+                </li>
+                {% else %}
+              <li data-section="{{ post.title }}">
+                <a href="../../{{ post.url }}">{{ post.title }}</a>
+                </li>
+              {% endif %}
+            {% endif %}
+              {% endfor %}
+            {% endfor %}
+         {% endfor %}
+            <li class="nav-header">CONTACT</li>
+            <li><a href="mailto:am3210@columbia.edu">Email Me!</a></li>
+          </ul>
+        </div>
