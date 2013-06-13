@@ -19,19 +19,22 @@
   <body>
     <div class="container">
       <div class="row" id="name">
-        <h1><a href="/">Amrita Mazumdar</a></h1>
+        <h1><a href="./">Amrita Mazumdar</a></h1>
         <h2>DREU 2013 @ Brown University</h2>
       </div>
       <div class="row" id="bottom">
         <div class="span3">
           <ul id="menu" class="nav nav-list">
+            <li data-section="{{ post.title }}">
+              <a href="./about-me">About Me</a>
+            </li>
           {% for category in site.categories %}
           <li class="nav-header">{{ category | first }}</li>
             {% for posts in category %}
             {% for post in posts %}
             {% if post.title != nil %}
               <li data-section="{{ post.title }}">
-                <a href="{{ post.url }}">{{ post.title }}</a>
+                <a href="./{{ post.url }}">{{ post.title }}</a>
                 </li>
             {% endif %}
               {% endfor %}
