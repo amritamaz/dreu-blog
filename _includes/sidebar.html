@@ -1,8 +1,5 @@
         <div class="span3">
           <ul id="menu" class="nav nav-list">
-            <li data-section="{{ post.title }}">
-              <a href="../about-me">About Me</a>
-            </li>
           {% for category in site.categories %}
           <li class="nav-header">{{ category | first }}</li>
             {% for posts in category %}
