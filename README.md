@@ -1,4 +1,5 @@
-# DREU - Distributed Research Experience for Undergraduates
+# DREU 
+###Distributed Research Experience for Undergraduates
 
     www.amritamaz.me/dreu-blog
 
