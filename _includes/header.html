@@ -1,21 +1,11 @@
 <div id="header" class="row">
   <div id="logos">
-      {% if page.title == 'Welcome %}
-    <img src="./assets/img/columbia.jpg">
-    <img src="./assets/img/amz.jpg">
-    <img src="./assets/img/brown.jpg">
-    {% else %}
-    <img src="../assets/img/columbia.jpg">
-    <img src="../assets/img/amz.jpg">
-    <img src="../assets/img/brown.jpg">
-    {% endif %}
+    <img src="{{ site.baseurl }}/assets/img/columbia.jpg">
+    <img src="{{ site.baseurl }}/assets/img/amz.jpg">
+    <img src="{{ site.baseurl }}/assets/img/brown.jpg">
   </div>
   <div id="name">
-      {% if page.title == 'Welcome %}
-      <h1><a href="./">Amrita Mazumdar</a></h1>
-      {% else %}
-      <h1><a href="../">Amrita Mazumdar</a></h1>
-      {% endif %}
+    <h1><a href="{{ site.baseurl }}/">Amrita Mazumdar</a></h1>
         <h2>DREU 2013 @ Brown University</h2>
       
     </div>

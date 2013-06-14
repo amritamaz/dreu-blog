@@ -2,3 +2,4 @@ markdown: rdiscount
 pygments: true
 permalink: /:title
 timezone: America/New_York
+baseurl: /dreu-blog
