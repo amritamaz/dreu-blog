@@ -12,6 +12,14 @@ body {
   float: right;
 }
 
+#name a{
+  color: #000;
+}
+
+a {
+  color: #33a5c8;
+}
+
 #logos {
 float: left;
 padding-bottom: 10px;
@@ -70,6 +78,7 @@ margin-top: 0px;
 #name h1{
   line-height: normal;
   margin: 0;
+  color: #33a5c8;
 }
 
 #name h2{
@@ -88,6 +97,17 @@ margin-top: 0px;
 
 #post h2{
   font-size: 16px; 
+}
+
+#post #date {
+  line-height: normal;
+  margin-top: -10px;
+  padding-bottom: 10px;
+  font-weight: 300;
+  color: #999; 
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 12px;
 }
 
 #barus {
