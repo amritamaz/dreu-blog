@@ -4,7 +4,8 @@ title: About the Project
 category: about
 ---
 
-My task for the summer is to build an <b>automatic synthesis tool</b>
+## An Automated Synthesis Tool for Generating Noise-Immune Sub-Threshold Circuits
+My project for the summer is to build an <b>automatic synthesis tool</b>
 for noise-immune sub-threshold circuit design based on selective
 use of Schmitt-trigger logic. Dr. Bahar's group has been developing a 
 technique for designing noise-immune circuits, and my goal is to 
