@@ -3,6 +3,24 @@ layout: post
 title: Week Seven
 category: weekly log
 ---
+
+## Day 5 (7/26) + weekend work
+  + More of the same from yesterday. I spent the weekend running simulations on and off
+  with new noise files, adding flip flops for error counting, etc. etc. Now that we've sorted
+  out a lot of the problems with the spice simulations and they're running properly, it's starting
+  to look like the fault-emphasis scenarios are not working out as well as we'd hoped. 
+  + I drew out
+  implication sets for rd73 also, in case Dr. Bahar needed them for her presentation, but as the
+  results came in and it looked like they weren't really necessary, we ended up not including
+  a lot of them. 
+  + I ran lots of simulations and parsed through and graphed lots of results on Saturday morning
+  and evening, so that happened also.
+
+## Day 4 (7/25)
+  + Today I spent the day running rd53 simulations with changes a lot because of some new
+  error counting scripts Marco was working on. I also started drawing some diagrams for
+  Dr. Bahar's presentation next week.
+
 ## Day 3 (7/24)
   + Marco sent me an email towards the end of the day to lower the noise and just get glitchy 
   simulations, but in practice I had a lot of trouble getting that done. I realized after bothering

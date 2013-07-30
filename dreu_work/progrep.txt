@@ -1,0 +1,26 @@
+Please give a brief description of your project:
+My project is to build an automatic synthesis tool for noise-immune sub-threshold circuit design based on selective use of Schmitt-trigger logic. Low-power circuits are highly susceptible to signal disturbances due to thermal and random telegraph noise, and Dr. Bahar's group has developed an error correction technique based on Schmitt trigger logic to suppress noise in these sub-threshold circuits with minimal area overhead. My task is to create an automated tool to implement this technique and dynamically synthesize a circuit that maximizes noise suppression with minimal area overhead by including Schmitt-trigger logic at the most failure-prone nodes in a circuit. 
+
+How many weeks have you worked so far, and how many weeks do you have left?
+I have worked on this project for almost six weeks, and I have four weeks left.
+
+What is the status of your project? (include what you have accomplished so far and what you expect to accomplish in the rest of the summer)
+Presently, the tool I am working on is entirely automated, and I am working on developing new sets of heuristics used for the dynamic selection of implications to produce optimized circuits. By the end of the summer, I hope to develop an optimal set of heuristics for significant noise suppression and demonstrate the tool's effectiveness on larger and more complex circuits. I also look forward to presenting my results at the Brown Undergraduate Summer Research Symposium in early August. 
+
+What has been your biggest challenge so far?
+I think my biggest challenge has been jumping into an in-progress project, familiarizing myself with someone else's code base and workflow, and understanding the project and motivations behind every decision in the code so I could contribute actively without worrying about doing something wrong. Combatting this been a combination of deeply understanding the theory behind the tool we're using and understanding how the code currently works to see the holes in the workflow and what improvements are useful . 
+
+What is the most exciting thing that has happened so far?
+I think the most exciting event, for me, has been reaching the milestone of fully automating the tool. It was meaningful because it demonstrated my understanding of the code base and the project, and was my first really independent contribution to the tool.
+
+What is your working environment? For example, how frequently do you meet your mentor, the grad students in your group, others in the department, etc? Are you working on your project alone, with another undergrad, or with a graduate student. Have you attended any research talks?
+I work in a lab office space that is co-habited by the graduate student I'm working with, some graduate students in a related lab, the other DREU student working with my professor (on a different project) and another undergrad she's working with. There is a graduate student who is helping me with the project, and he is working on a different part of the tool in conjunction with a few other experiments. The lab group that is concerned with this project meets about once a week, sometimes more when experiments are being conducted, and I've attended these meetings as well as holding my own meeting to present and discuss my own results. 
+
+What is your housing and roommate situation?
+My housing situation is very satisfactory. The other DREU student working with my professor is also my housemate and during the week we typically go to work and the gym and eat together. We are subletting rooms in a house near campus with a few other students or recent grads living in Providence for the summer, and the location is quite ideal for our purposes. 
+
+Is there anything else that you would like us to know about your experience?
+My experience thus far has been very good! It took a while to get adjusted (things like email accounts, access to Brown servers, etc. took a very long time to get going because of the school) but once I did I was very excited by the project and my work. 
+
+Is there anything you would like to tell your mentor (these comments, if any, will be forwarded to your mentor)?
+Nothing specific, I am really enjoying my time working on this project and really appreciate the opportunity! 

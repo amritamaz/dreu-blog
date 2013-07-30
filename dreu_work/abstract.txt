@@ -1,0 +1,7 @@
+Nanoscale circuits operating at sub-threshold voltages are increasingly susceptible to the impact of random telegraph signal (RTS) and thermal noise, resulting in soft errors that compromise a circuit's reliability. 
+
+This work presents a low-power, area-efficient error correction technique and an automated tool to synthesize noise-immune circuits. 
+
+The tool selectively applies reinforcement using invariant relationships to correct noise-induced signal errors. 
+
+Simulations demonstrate our synthesized circuits provide better noise immunity than standard CMOS technology in tests with limited area and power overhead.
