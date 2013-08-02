@@ -4,6 +4,22 @@ title: Week Eight
 category: weekly log
 ---
 
+## Day 5 (8/2)
+  + I worked on my poster from 12-3 am yesterday, then woke up at 730 to print my poster, so
+  I'm tired. But the poster sesion went very well! I had a lot of interested visitors and met
+  some really cool other undergraduate researchers from Brown and other schools. I also met
+  a professor who was really interested in the program, as she worked in earth science and spent
+  a lot of time working to connecting women in sciences. We discussed grad school and her 
+  experiences and all these things were really fun and exciting! Dr. Bahar and some of the
+  grad students in our lab also came by and I was able to show them my work and results.
+  + Then I took a nap.
+  + Then I armed myself with coffee and returned to crank out a few hours of prep work! Next
+  week Marco will be gone, so I have a few simulations and tests I plan on running, both with
+  different sets of implications and different circuits. So I'm prepping by (a) fixing the 
+  new input problems with the blib2v converter and (b) making a list of tasks. This weekend
+  I can probably get some simulations going so I'm not sitting around for three hours waiting
+  for results to analyze.
+
 ## Day 4 (8/1)
   + Marco and I spent the morning trying to debug the find-implications errors, but we're
   both too scared to touch the old find-implications code because we're pretty sure that's
