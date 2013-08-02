@@ -13,6 +13,9 @@ automate this technique to dynamically synthesize a circuit that
 maximizes noise suppression with minimal area overhead by including 
 Schmitt-trigger logic at the most failure-prone nodes in a circuit. 
 
+I presented a poster at the Brown Summer Research Symposium on August 2, 2013. You
+can find a PDF version of the slides <a href="{{ site.baseurl }}/assets/dreu_poster.pdf">here</a>.
+
 I am still in the early stages of my research, and more information will 
 be added as I advance through the project!
 
