@@ -4,6 +4,29 @@ title: Week Nine
 category: weekly log
 ---
 
+## Day 3 (8/7):
+  + Not much got done today, unfortunately. This morning I spoke to Dr. Bahar about the
+  problem with the Schmitt trigger gates for higher-fan-in gates and what our options were.
+  She explained to me why we couldn't really afford to go higher than 2 inputs on the schmitt
+  trigger gates because the additional sets of transistors would result in it becoming too high 
+  of a stack to meet our area constraints. We decided the best option would be to just
+  make standard versions of the 3 and 4 input gates, and just discard implications that have
+  those larger gates in them. Another option would be to convert it to 2-input like we'd been
+  doing, and it might be interesting to try both options and see how that goes.
+  + We also had a photoshoot today! That was exciting and awkward. A photographer from the Engineering
+  school came and took pictures of us doing tech-y things (pointing at slides, looking at a computer, etc).
+  + Then I sat down to look at simulations and choose the best chains to doubly reinforce.
+  When I ssh'd in, it was moving very slowly and then I saw it wouldn't let me copy a new file. Why?
+  I had apparently exceeded my disk quota. I checked and realized the data folder that we use for
+  simulations had exceeded our quota by about 50GB, and deleted as many of the old simulations as I could
+  to ameliorate. At one point I tried to move everything into my home directory, but that only has 
+  10 GB of space, so that didn't work either. I spent some time reading the CCV manuals and things
+  but the fact of the matter was that there are a lot of old simulations that I don't feel comfortable 
+  deleting, and what probably happened was the larger simulations were made before and we exceeded
+  our grace period so now the system was just refusing to let me do anything until I deleted 30 GB of
+  material I didn't feel comfortable deleting. So I contacted Marco and hopefully this will get resolved.
+  But now I can't even look at the sims so that's not exciting.
+
 ## Day 2 (8/6):
   + I carefully chose sets of chains for rd73 and misex1 that properly demonstrated
   many different types of chains (length, activation, etc) and hopefully they will
