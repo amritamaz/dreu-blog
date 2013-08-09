@@ -4,6 +4,32 @@ title: Week Nine
 category: weekly log
 ---
 
+## Day 5 (8/9):
+  + It was raining a lot all day. 
+  + Marco gave me a lesson on gate sizing today, which was presumably why he didn't want me to add to
+  the library. We talked about how NMOS and PMOS gates need different widths to equalize the current
+  drawn, which I did totally wrong so I'm glad I had the lesson. Now I understand much better, and
+  will hopefully be able to make the gates correctly.
+  + The lab group went to lunch today at Andreas' and I had a Greek burger. It was still raining.
+  + Dr. Bahar, Marco and I were supposed to meet today to give a progress update but since the 
+  Smartspice licenses were still being updated, there wasn't really anything to discuss or show
+  and I'm not done with results. So we decided to meet Monday instead, hopefully the licenses will
+  be updated by then. 
+
+## Day 4 (8/8):
+  + Today was, again, super unproductive. Ningquan came to me this morning and asked
+  me if he had messed up his Smartspice setup, and when we looked at it we realized
+  the license servers were down. This meant that Smartspice and Smartview weren't working,
+  so not only could I not run any Spice simulations, I couldn't look at the simulations I'd
+  run the other day also.
+  + Marco emailed me and told me not to make any additions to the library before he came back,
+  so I didn't touch the new circuits I needed to add either.
+  + I had a really instructive and interesting discussion with Dr. Bahar today about
+  graduate school and what I should be looking for in my adventures through google and so 
+  on. I feel like applying to graduate school is even more stressful than applying to 
+  undergrad, because it's simultaneously much more specific and much more permanent. I'm
+  very glad I took the time to talk to Dr. Bahar because it really helped.
+
 ## Day 3 (8/7):
   + Not much got done today, unfortunately. This morning I spoke to Dr. Bahar about the
   problem with the Schmitt trigger gates for higher-fan-in gates and what our options were.
